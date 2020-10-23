@@ -47,7 +47,7 @@ class MyMouseAdapter extends MouseAdapter {
     appWindow.mouseY = me.getY();
     appWindow.mousemsg = "Mouse Down at " + appWindow.mouseX +
     ", " + appWindow.mouseY;
-    appWindow.repaint();
+    appWindow.repaint();cmae
     }
     }
     class MyWindowAdapter extends WindowAdapter {
