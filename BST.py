@@ -14,6 +14,7 @@ class BinarySearchTree:
         temp = self.root
         if temp is None:
             self.root = node
+            return nil
         else:
             while True:
                 if temp.value == value :
