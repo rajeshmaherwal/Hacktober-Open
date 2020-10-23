@@ -51,5 +51,7 @@ class MyMouseAdapter extends MouseAdapter {
     }
     }
     class MyWindowAdapter extends WindowAdapter {
+        
+        
     public void windowClosing(WindowEvent we) {
     System.exit(0); } }
